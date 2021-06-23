@@ -1,0 +1,1 @@
+POST http://localhost:3000/bounties/?firstName=Jack&lastName=Kells&living=true&bountyAmount=14000&type=jedi

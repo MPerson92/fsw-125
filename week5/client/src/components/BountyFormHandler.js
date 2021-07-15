@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function BountyFormHandler({submit, btnText, firstName, lastName, living, bountyAmount, type, _id}) {
-    const initialInputs = { firstName: firstName || '', lastName: lastName || '', living: living || '', bountyAmount: bountyAmount || '', type: type || ''};
+    const initialInputs = { firstName: firstName || '', lastName: lastName || '', living: living || '', bountyAmount: bountyAmount || '', type: type || '' };
     const [inputs, setInputs] = useState(initialInputs);
 
     const handleChange = (e) => {

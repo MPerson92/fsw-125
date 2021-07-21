@@ -1,0 +1,31 @@
+h1, p{
+  margin: 5px;
+}
+
+.bounty-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.bounty{
+  border: 2px solid navy;
+  color: navy;
+  background-color: grey;
+  padding: 10px;
+  margin: 5px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.delete-btn {
+  color: white;
+  background-color: red;
+}
+
+.edit-btn{
+  color: white;
+  background-color: green;
+}

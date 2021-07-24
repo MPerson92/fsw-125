@@ -1,0 +1,59 @@
+h1, p{
+  margin: 5px;
+}
+
+body{
+  background-color: rebeccapurple;
+}
+
+.star-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.star{
+  border: 2px solid yellow;
+  color: greenyellow;
+  background-color: black;
+  padding: 10px;
+  margin: 5px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.delete-btn {
+  color: white;
+  background-color: red;
+}
+
+.edit-btn{
+  color: white;
+  background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .star{
+    border: 2px solid purple;
+    color: black;
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .delete-btn {
+    color: white;
+    background-color: red;
+  }
+  
+  .edit-btn{
+    color: white;
+    background-color: purple;
+  }
+}
